@@ -1,0 +1,70 @@
+h1{
+    font-family: linotype-didot, serif; 
+}
+p{
+    font-family: linotype-didot, serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fffbf7;
+}
+.header{
+    background-color: whitesmoke;
+    height: 100px;
+    margin-bottom: 75px;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    height: 100px;
+}
+.header-logo img{
+    height: 50px;
+    margin: 20px 0 5px 0;
+}
+.menusections{
+
+}
+.menu-item{
+    font-family: 'futura-pt', sans-serif;
+    display: inline;
+    padding: 2px 5px;
+    margin: 0 10px;
+}
+.ddown-menu{
+    font-family: 'futura-pt', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+.ddown-button{
+    border: transparent;
+    background-color: transparent;
+}
+.ddown-content{
+    color: black;
+    text-decoration: none;
+    display: none;
+}
+.ddown-menu:hover .ddown-content{
+    display: block;
+}
+.ddown-item{
+    font-family: 'futura-pt', sans-serif;
+    margin: 2px 5px;
+    display: block;
+}
+.slide-gallery{
+
+}
+.footer{
+    background-color: darkblue;
+    min-width: 100%;
+}
