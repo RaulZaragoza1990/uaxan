@@ -1,7 +1,7 @@
-h1{
+h1 {
     font-family: linotype-didot, serif; 
 }
-p{
+p {
     font-family: linotype-didot, serif;
 }
 * {
@@ -12,59 +12,44 @@ p{
 body {
     margin: 0;
     box-sizing: border-box;
-    background-color: #fffbf7;
+    background-color: #FBF7F2;
 }
-.header{
-    background-color: whitesmoke;
-    height: 100px;
-    margin-bottom: 75px;
-}
-.header-content{
-    display: flex;
-    justify-content: center;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    height: 100px;
-}
-.header-logo img{
-    height: 50px;
-    margin: 20px 0 5px 0;
-}
-.menusections{
-
-}
-.menu-item{
+.navbar {
+    background-color: #FBF7F2;
+    height: 80px;
     font-family: 'futura-pt', sans-serif;
-    display: inline;
-    padding: 2px 5px;
-    margin: 0 10px;
+    font-size: 18px;
 }
-.ddown-menu{
-    font-family: 'futura-pt', sans-serif;
-    display: inline-block;
-    position: relative;
+.navbar .navbar-nav .nav-item .logo-navbar img {
+    width: 100px;
+    margin: 5px 0;
+    vertical-align: bottom;
 }
-.ddown-button{
-    border: transparent;
-    background-color: transparent;
+.navbar .navbar-nav .nav-item {
+    margin: 0 23px;
 }
-.ddown-content{
-    color: black;
-    text-decoration: none;
-    display: none;
+.navbar .navbar-nav .nav-item > a {
+    padding: 0;
+    margin: 37px 0 0 0;
 }
-.ddown-menu:hover .ddown-content{
-    display: block;
+.popular-products {
+    
 }
-.ddown-item{
-    font-family: 'futura-pt', sans-serif;
-    margin: 2px 5px;
-    display: block;
+.card { 
+    margin: 0 3px;
 }
-.slide-gallery{
-
-}
-.footer{
+.popular-products .row .col .card-group .card .card-footer {
     background-color: darkblue;
-    min-width: 100%;
+}
+.popular-products .row .col .card-group .card .card-footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.popular-products .row .col .card-group .card .card-footer .row h6 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.popular-products .row .col .card-group .card .card-footer .row .text-muted img {
+    width: 40px;
 }
