@@ -22,11 +22,19 @@ body {
     height: 80px;
     font-family: 'futura-pt', sans-serif;
     font-size: 18px;
+    transition: .5s;
 }
 .navbar .navbar-nav .nav-item .logo-navbar img {
     width: 100px;
     margin: 5px 0;
     vertical-align: bottom;
+    transition: .5s;
+}
+.navbar .navbar-nav .nav-item .logo-imagotipo img {
+    width: 40px;
+    margin: 5px 0;
+    vertical-align: bottom;
+    display: none;
 }
 .navbar .navbar-nav .nav-item {
     margin: 0 31px;
@@ -70,8 +78,14 @@ body {
 .popular-products .row .col .card-group .card { 
     margin: 0 8px;
     background-color: #e2e2e275;
-    border-radius: 4px;
+    border-radius: 5px;
     border: none;
+    transition-duration: .8s;
+}
+.popular-products .row .col .card-group .card:hover { 
+    box-shadow: 0 8px 12px 0 #0000003f;
+    position: relative;
+    bottom: 15px;
 }
 .popular-products .row .col .card-group .card .card-footer {
     background-color: #092538;

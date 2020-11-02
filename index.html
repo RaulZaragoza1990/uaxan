@@ -14,13 +14,13 @@
       <!--<div class="nav fixed-top row">
         <div class="col"></div>
         <div class="col">-->
-          <nav class="fixed-top navbar navbar-expand-lg navbar-light" id="navbar-shrinks">
+          <nav class="fixed-top navbar navbar-expand-lg navbar-light" id="navbar-shrink">
             <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item active" id="navbar-bar-shrink">
                   <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" id="navbar-bar-shrink">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Tienda
                   </a>
@@ -29,15 +29,20 @@
                     <a class="dropdown-item" href="#">Linea</a>
                   </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="navbar-bar-shrink">
+                  <a href="#">
                     <form class="logo-navbar">
                       <img src="./svgs/logo-fullcolor.svg" alt="Logo Uaxan" id="full-logo">
                     </form>
+                    <form class="logo-imagotipo">
+                      <img src="./svgs/Icono Uaxan-26.svg" alt="Logo Uaxan" id="full-imagotipo">
+                    </form>
+                  </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="navbar-bar-shrink">
                   <a class="nav-link" href="#historia-nosotros">Historia</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="navbar-bar-shrink">
                   <a class="nav-link" href="#">Contacto</a>
                 </li>
               </ul>
@@ -105,7 +110,10 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <div class="row">
+                    <img src="./svgs/Icono Click_Mesa de trabajo 1.svg" alt="Da Click">
+                    <h6>¡Compra en un click!</h6>
+                  </div>
                 </div>
               </div>
               <div class="card">
@@ -115,7 +123,10 @@
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <div class="row">
+                    <img src="./svgs/Icono Click_Mesa de trabajo 1.svg" alt="Da Click">
+                    <h6>¡Compra en un click!</h6>
+                  </div>
                 </div>
               </div>
               <div class="card">
@@ -125,7 +136,10 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <div class="row">
+                    <img src="./svgs/Icono Click_Mesa de trabajo 1.svg" alt="Da Click">
+                    <h6>¡Compra en un click!</h6>
+                  </div>
                 </div>
               </div>
               <div class="card">
@@ -182,7 +196,18 @@
       </section>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-      
+      <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar-shrink").style.height = "60px";
+            document.getElementById("full-logo").style.width ="75px";
+          } else {
+            document.getElementById("navbar-shrink").style.height = "80px";
+            document.getElementById("full-logo").style.width = "100px";
+          }
+        }
+        </script>
     </body>
 </html>
                     
