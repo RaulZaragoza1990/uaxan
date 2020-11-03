@@ -121,3 +121,78 @@ body {
     padding: 25px 60px;
     border-radius: 4px;
 }
+.historia .historia-img{
+    margin-right: 10%;
+}
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nosotros .nosotros-text{
+    margin-left: 10%;
+    margin-right: -150px;
+    background-color: #e2e2e275;
+    padding: 25px 60px;
+    border-radius: 4px;
+}
+.nosotros .nosotros-img img{
+    max-width: 600px;
+    margin-left: -150px;
+}
+.nosotros .nosotros-img {
+    margin-right: 10%;
+}
+.new-products{
+    padding: 65px 0;
+    background-color: white;
+}
+.new-products .popular-products-title {
+    align-content: center;
+    justify-content: center;
+    margin: 0 0 50px 0;
+}
+.new-products .popular-products-title h1 {
+    font-size: 40px;
+}
+.new-products .popular-products-title a {
+    display: flex;
+    align-content: center;
+}
+.new-products .popular-products-title .scrolly-popular-products img {
+    width: 25px;
+    margin: 0 15px 8px 15px;
+}
+.new-products .row .col .card-group .card { 
+    margin: 0 8px;
+    background-color: #e2e2e275;
+    border-radius: 5px;
+    border: none;
+    transition: .8s;   
+}
+.new-products .row .col .card-group .card:hover { 
+    box-shadow: 0 8px 12px 0 #0000003f;
+    transition-duration: .8s; 
+    transform: translate(0, -10px);
+}
+.new-products .row .col .card-group .card .card-footer {
+    background-color: #092538;
+    border-radius: 0 0 5px 5px;
+}
+.new-products .row .col .card-group .card .card-footer .row {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-products .row .col .card-group .card .card-footer .row h6 {
+    color: whitesmoke;
+    margin: 0;
+    margin-left: 5px;
+}
+.new-products .row .col .card-group .card .card-footer .row img {
+    width: 25px;
+    margin-right: 5px;
+}
