@@ -138,6 +138,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 150px 0 75px 0;
 }
 .historia .historia-img{
     margin-left: 10%;
@@ -163,20 +164,21 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 75px 0 150px 0;
 }
 .nosotros .nosotros-text{
     margin-left: 10%;
-    margin-right: -150px;
+    margin-right: -45px;
     background-color: #e2e2e275;
     padding: 25px 60px;
     border-radius: 4px;
 }
-.nosotros .nosotros-img img{
-    max-width: 600px;
-    margin-left: -150px;
-}
 .nosotros .nosotros-img {
     margin-right: 10%;
+}
+.nosotros .nosotros-img img{
+    max-width: 600px;
+    margin-left: -45px;
 }
 .new-products{
     padding: 65px 0;
