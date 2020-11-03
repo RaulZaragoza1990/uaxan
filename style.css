@@ -30,12 +30,6 @@ body {
     vertical-align: bottom;
     transition: .5s;
 }
-.navbar .navbar-nav .nav-item .logo-imagotipo img {
-    width: 40px;
-    margin: 5px 0;
-    vertical-align: bottom;
-    display: none;
-}
 .navbar .navbar-nav .nav-item {
     margin: 0 31px;
 }
@@ -80,12 +74,12 @@ body {
     background-color: #e2e2e275;
     border-radius: 5px;
     border: none;
-    transition-duration: .8s;
+    transition: .8s;   
 }
 .popular-products .row .col .card-group .card:hover { 
     box-shadow: 0 8px 12px 0 #0000003f;
-    position: relative;
-    bottom: 15px;
+    transition-duration: .8s; 
+    transform: translate(0, -10px);
 }
 .popular-products .row .col .card-group .card .card-footer {
     background-color: #092538;
